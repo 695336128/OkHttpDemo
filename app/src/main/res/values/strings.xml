@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OkHttpDemo</string>
+    <string name="getehttpbutton">geteHttpButton</string>
+    <string name="postmapbtn">postMapBtn</string>
+</resources>
