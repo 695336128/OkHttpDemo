@@ -136,6 +136,8 @@ public class DownManagerActivity extends AppCompatActivity {
         // 设置下载的文件类型为.APK安装文件
         mRequest.setMimeType("application/vnd.android.package-archive");
 
+//        mRequest.addRequestHeader("header", "value") //网络连接的http头
+
         downId = mDownloadManager.enqueue(mRequest);
     }
 
